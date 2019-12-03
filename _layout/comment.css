@@ -1,0 +1,26 @@
+/* 公共样式 */
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+    -ms-margin: 0 auto;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.clearfix::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+/* 此样式未完成 添加a链接*/
+/* li:hover{
+    background-color: lawngreen;
+    cursor: pointer;
+} */

@@ -1,0 +1,548 @@
+@media screen and (max-width:1220px){
+    .box{
+        width: 876px;
+        transition: ease-in .5s;
+    }
+    /* 第四屏改变 */
+    .Appearance .box .history,.Appearance .box .challenge,.Appearance .box .build-sheet .build-left,.Appearance .box .build-sheet .build-right{
+        width: 428px;
+    }
+    .Appearance .box .build-sheet{
+        width: 876px;
+    }
+    .Appearance .box .history .pic{
+        width: 428px;
+        background-image: url('../images/HomePage/RetroMotorcycle/four@1min.jpg');
+    }
+    .Appearance .box .challenge .pic{
+        width: 428px;
+        background-image: url('../images/HomePage/RetroMotorcycle/four@2min.jpg');
+    }
+    /* 第六屏改变 */
+    .ReferenceMap .Maptop .Map-l,
+    .ReferenceMap .Maptop .Map-r,
+    .ReferenceMap .MapFoot .Map-l,
+    .ReferenceMap .MapFoot .Map-r{
+        transition: linear .5s;
+    }
+    .ReferenceMap .Maptop .Map-l,
+    .ReferenceMap .Maptop .Map-r{
+    width: 428px;
+    height: 584px;
+    }
+    .ReferenceMap .Maptop .Map-l{
+    float: left;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@2.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .ReferenceMap .Maptop .Map-r{
+    float: right;
+    }
+    .ReferenceMap .Maptop .Map-r .top,
+    .ReferenceMap .Maptop .Map-r .bottom{
+    width: 428px;
+    height: 282px;
+    }
+    .ReferenceMap .Maptop .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@1x2.jpg');
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .Maptop .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@2x2.jpg');
+    }
+    .ReferenceMap .Middle{
+    width: 876px;
+    height: 426px;
+    background-image: url('../images/HomePage/RetroMotorcycle/Middle@2.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .MapFoot .Map-l,
+    .ReferenceMap .MapFoot .Map-r{
+    width: 428px;
+    height: 584px;
+    }
+    .ReferenceMap .MapFoot .Map-l{
+    float: right;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@4.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .ReferenceMap .MapFoot .Map-r{
+    float: left;
+    }
+    .ReferenceMap .MapFoot .Map-r .top,
+    .ReferenceMap .MapFoot .Map-r .bottom{
+    width: 428px;
+    height: 282px;
+    }
+    .ReferenceMap .MapFoot .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@4.jpg');
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .MapFoot .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@6.jpg');
+    }
+    /* 第七屏改变 */
+    .ExhibitionModels .ModelContainer .first,
+    .ExhibitionModels .ModelContainer .second,
+    .ExhibitionModels .ModelContainer .third{
+        width: 278px;
+        margin-right: 20px;
+    }
+    .ExhibitionModels .ModelContainer{
+        padding: 0;
+    }
+    .ExhibitionModels .ModelContainer .third{
+        margin-right: 0;
+    }
+    .ExhibitionModels .ModelContainer .first .pic,
+    .ExhibitionModels .ModelContainer .second .pic,
+    .ExhibitionModels .ModelContainer .third .pic{
+        width: 278px;
+        height: 185px;
+    }
+    .ExhibitionModels .ModelContainer .first .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@1x1.jpg');
+    }
+    .ExhibitionModels .ModelContainer .second .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@2x2.jpg');
+    }
+    .ExhibitionModels .ModelContainer .third .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@3x3.jpg');
+    }
+    /* 页脚改变 */
+    .footer .nav-bar .nav-ul{
+        text-align: left;
+        height: auto;
+        margin: 0;
+    }
+    .footer .nav-bar .nav-ul li{
+        float: none;
+        color: white;
+        padding: 6px 0 6px 60px;
+        line-height: 1;
+    }
+    .footer .nav-bar li.foot-logo{
+        position: absolute;
+        right: 112px;
+        top: 50%;
+        bottom: 50%;
+        margin: -62px 0;
+    }
+    .footer .nav-bar .bottom-footer{
+        padding-left: 60px;
+    }
+    .footer .nav-bar .bottom-footer li{
+        float: left;
+    }
+    .footer .nav-bar .bottom-footer li i{
+        color: #515151;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:900px){
+    .box{
+        width: 720px;
+    }
+    /* 导航栏改变 */
+    .header{
+        width: 100%;
+    }
+    nav.nav{
+        display: none;
+        transition: left 1s;
+    }
+    .header .menu-btn{
+        display: block;
+    }
+    button.menu-btn:hover > .header div.link-nav{
+        display: block;
+    }
+    /* 首屏改变 */
+    .container{
+        background-image: url('/images/HomePage/Banner/timg@1x1.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* 第四屏改变 */
+    .Appearance .box .history,
+    .Appearance .box .challenge,
+    .Appearance .box .history .pic,
+    .Appearance .box .challenge .pic,
+    .Appearance .box .build-sheet .build-left,
+    .Appearance .box .build-sheet .build-right{
+        width: 350px;
+    }
+    .Appearance .box .build-sheet{
+        width: 720px;
+    }
+    .Appearance .box .history .pic{
+        background-image: url('/images/HomePage/RetroMotorcycle/four@1x1min.jpg');
+        height: 525px;
+    }
+    .Appearance .box .challenge .pic{
+        background-image: url('/images/HomePage/RetroMotorcycle/four@2x2min.jpg');
+        height: 525px;
+    }
+    .Appearance .box .history .history-ready,
+    .Appearance .box .challenge .challenge-ready{
+        width: 350px;
+        padding: 20px;
+    }
+    .Appearance .box .build-sheet .build-left,
+    .Appearance .box .build-sheet .build-right{
+        float: left;
+        width: 350px;
+    }
+    .Appearance .box .build-sheet .build-right{
+        float: right;
+    }
+    /* 第六屏改变 */
+    .ReferenceMap .Maptop .Map-l,
+    .ReferenceMap .MapFoot .Map-l{
+        transition: width 1s;
+    }
+    .ReferenceMap .Maptop .Map-l,
+    .ReferenceMap .Maptop .Map-r{
+    width: 350px;
+    height: 484px;
+    }
+    .ReferenceMap .Maptop .Map-l{
+    float: left;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@2x1min.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .ReferenceMap .Maptop .Map-r{
+    float: right;
+    }
+    .ReferenceMap .Maptop .Map-r .top,
+    .ReferenceMap .Maptop .Map-r .bottom{
+    width: 350px;
+    height: 232px;
+    }
+    .ReferenceMap .Maptop .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@1x2min.jpg');
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .Maptop .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@2x2min.jpg');
+    }
+    .ReferenceMap .Middle{
+    width: 720px;
+    height: 426px;
+    background-image: url('../images/HomePage/RetroMotorcycle/Middle@3.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .MapFoot{
+        font-size: 0;
+    }
+    .ReferenceMap .MapFoot .Map-l,
+    .ReferenceMap .MapFoot .Map-r{
+    width: 350px;
+    height: 484px;
+    }
+    .ReferenceMap .MapFoot .Map-l{
+    float: right;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@4x4min.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .ReferenceMap .MapFoot .Map-r{
+    float: left;
+    }
+    .ReferenceMap .MapFoot .Map-r .top,
+    .ReferenceMap .MapFoot .Map-r .bottom{
+    width: 350px;
+    height: 232px;
+    }
+    .ReferenceMap .MapFoot .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@4x4min.jpg');
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .MapFoot .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@6x6min.jpg');
+    }
+    /* 第七屏改变 */
+    .ExhibitionModels{
+        padding: 0 auto;
+    }
+    .ExhibitionModels .ModelContainer .first,
+    .ExhibitionModels .ModelContainer .second,
+    .ExhibitionModels .ModelContainer .third{
+        width: 225px;
+        margin-right: 20px;
+    }
+    .ExhibitionModels .ModelContainer .third{
+        margin-right: 0;
+    }
+    .ExhibitionModels .ModelContainer .first .pic,
+    .ExhibitionModels .ModelContainer .second .pic,
+    .ExhibitionModels .ModelContainer .third .pic{
+        width: 225px;
+        height: 150px;
+    }
+    .ExhibitionModels .ModelContainer .first .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@1x1min.jpg');
+    }
+    .ExhibitionModels .ModelContainer .second .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@2x2min.jpg');
+    }
+    .ExhibitionModels .ModelContainer .third .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@3x3min.jpg');
+    }
+    .ExhibitionModels .ModelContainer .first h2,
+    .ExhibitionModels .ModelContainer .second h2,
+    .ExhibitionModels .ModelContainer .third h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    }
+}
+@media screen and (max-width:768px){
+    .box{
+        width: 600px;
+    }
+    /* 第三屏改变 */
+    .Voltron .black .box .voltron-main{
+        float: left;
+    }
+    /* 第四屏改变 */
+    .Appearance .box .history,.Appearance .box .challenge{
+        color: white;
+        position: relative;
+    }
+    .Appearance .box .history{
+        margin: 20px 0 20px 20px;
+        width: 200px;
+        height: 300px;
+    }
+    .Appearance .box .challenge{
+        margin: 20px 20px 20px 0;
+        width: 200px;
+        height: 300px;
+    }
+    .Appearance .box .history .pic,.Appearance .box .challenge .pic{
+        width: 200px;
+        margin: 0;
+        transition: width 1s ease-in-out;
+    }
+    .Appearance .box .history .pic{
+        background-image: url('/images/HomePage/RetroMotorcycle/four@1x2min.jpg');
+        height: 300px;
+    }
+    .Appearance .box .challenge .pic{
+        background-image: url('/images/HomePage/RetroMotorcycle/four@2x2min.jpg');
+        height: 300px;
+    }
+    .Appearance .box .history .history-ready,.Appearance .box .challenge .challenge-ready{
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        height: 300px;
+        width: 200px;
+        font-size: 10px;
+        text-align: center;
+        padding: 0;
+        transition: none;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    .Appearance .box .history .history-ready h2,.Appearance .box .challenge .challenge-ready h2{
+        line-height: 1;
+        font-size: 20px;
+        margin: 10px auto;
+    }
+    .Appearance .box .history .history-ready p,.Appearance .box .challenge .challenge-ready p{
+        font-size: 12px;
+    }
+    
+    .Appearance .box .build-sheet{
+        width: 600px;
+    }
+    .Appearance .box .build-sheet .build-left,
+    .Appearance .box .build-sheet .build-right{
+        float: left;
+        width: 290px;
+    }
+    /* 第六屏改变 */
+    .ReferenceMap .Maptop .Map-l,
+    .ReferenceMap .MapFoot .Map-l{
+        transition: width 1s;
+    }
+    .ReferenceMap .Maptop .Map-l,
+    .ReferenceMap .Maptop .Map-r{
+    width: 290px;
+    height: 396px;
+    }
+    .ReferenceMap .Maptop .Map-l{
+    float: left;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@2x2min.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .ReferenceMap .Maptop .Map-r{
+    float: right;
+    }
+    .ReferenceMap .Maptop .Map-r .top,
+    .ReferenceMap .Maptop .Map-r .bottom{
+    width: 290px;
+    height: 188px;
+    }
+    .ReferenceMap .Maptop .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@1x3min.jpg');
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .Maptop .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@2x3min.jpg');
+    }
+    .ReferenceMap .Middle{
+    width: 600px;
+    height: 396px;
+    background-image: url('../images/HomePage/RetroMotorcycle/Middle@4.jpg');
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .MapFoot{
+        font-size: 0;
+    }
+    .ReferenceMap .MapFoot .Map-l,
+    .ReferenceMap .MapFoot .Map-r{
+    width: 290px;
+    height: 396px;
+    }
+    .ReferenceMap .MapFoot .Map-l{
+    float: right;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@4x5min.jpg');
+    background-position: center;
+    background-size: cover;
+    }
+    .ReferenceMap .MapFoot .Map-r{
+    float: left;
+    }
+    .ReferenceMap .MapFoot .Map-r .top,
+    .ReferenceMap .MapFoot .Map-r .bottom{
+    width: 290px;
+    height: 188px;
+    }
+    .ReferenceMap .MapFoot .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@4x5min.jpg');
+    margin-bottom: 20px;
+    }
+    .ReferenceMap .MapFoot .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@6x7min.jpg');
+    }
+    /* 第七屏改变 */
+    .ExhibitionModels{
+        padding: 0 auto;
+    }
+    .ExhibitionModels .ModelContainer .first,
+    .ExhibitionModels .ModelContainer .second,
+    .ExhibitionModels .ModelContainer .third{
+        width: 225px;
+        margin-right: 20px;
+    }
+    .ExhibitionModels .ModelContainer .third{
+        margin-right: 0;
+    }
+    .ExhibitionModels .ModelContainer .first .pic,
+    .ExhibitionModels .ModelContainer .second .pic,
+    .ExhibitionModels .ModelContainer .third .pic{
+        width: 225px;
+        height: 150px;
+    }
+    .ExhibitionModels .ModelContainer .first .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@1x1min.jpg');
+    }
+    .ExhibitionModels .ModelContainer .second .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@2x2min.jpg');
+    }
+    .ExhibitionModels .ModelContainer .third .pic{
+        background-image: url('../images/HomePage/RetroMotorcycle/serven@3x3min.jpg');
+    }
+    .ExhibitionModels .ModelContainer .first h2,
+    .ExhibitionModels .ModelContainer .second h2,
+    .ExhibitionModels .ModelContainer .third h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    }
+    
+}
+@media screen and (max-width:738px){
+    /* 导航栏改变 */
+    .header{
+        width: 100%;
+    }
+    nav.nav{
+        display: none;
+        transition: left 1s;
+    }
+    .menu-btn{
+        display: block;
+    }
+    button.menu-btn:hover > .header div.link-nav{
+        display: block;
+    }
+    /* 首屏改变 */
+    .container{
+        background-image: url('/images/HomePage/Banner/banner@3x3.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:650px){
+    /* 第四屏改变 */
+    .Appearance .box .history,.Appearance .box .challenge{
+        color: white;
+    }
+    .Appearance .box .history{
+        margin: 20px 0 20px 20px;
+        width: 200px;
+        height: 300px;
+    }
+    .Appearance .box .challenge{
+        margin: 20px 20px 20px 0;
+        width: 200px;
+        height: 300px;
+    }
+    .Appearance .box .history .pic,.Appearance .box .challenge .pic{
+        width: 200px;
+        margin: 0;
+        transition: width 1s ease-in-out;
+    }
+    .Appearance .box .history .pic{
+        background-image: url('/images/HomePage/RetroMotorcycle/four@1x2min.jpg');
+        height: 300px;
+    }
+    .Appearance .box .challenge .pic{
+        background-image: url('/images/HomePage/RetroMotorcycle/four@2x2min.jpg');
+        height: 300px;
+    }
+    .Appearance .box .history .history-ready,.Appearance .box .challenge .challenge-ready{
+        position: absolute;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        height: 300px;
+        width: 200px;
+        font-size: 10px;
+        text-align: center;
+        padding: 0;
+        transition: width 2s ease-in-out;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    .Appearance .box .history .history-ready h2,.Appearance .box .challenge .challenge-ready h2{
+        line-height: 0.5;
+        font-size: 10px;
+        margin: 10px auto;
+    }
+}
+/* @import url('./nth-child.css'); */

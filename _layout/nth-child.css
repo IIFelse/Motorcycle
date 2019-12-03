@@ -1,0 +1,3 @@
+.tab-attribute .tab .first p span:nth-child(1),.tab-attribute .tab .second p span:nth-child(1){
+    border-right: 3px solid;
+}

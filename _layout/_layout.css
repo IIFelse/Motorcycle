@@ -1,0 +1,466 @@
+/* @import url('./_media.css'); */
+/* 默认导航栏样式 */
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 64px;
+    color: white;
+}
+.header .logo{
+    display: inline-block;
+    height: 64px;
+    line-height: 64px;
+    overflow: hidden;
+    width: 110px;
+}
+.header .logo i{
+    font-size: 20px;
+    color: #fff0f5;
+}
+.header nav{
+    float: right;
+    height: 64px;
+    background-color: inherit;
+}
+.header nav,.header nav li{
+    display: inline-block;
+}
+.header nav li{
+    margin-right: 30px;
+    line-height: 64px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.header .nav li:last-child{
+    margin-right: 0;
+}
+.header .menu-btn{
+    display: none;
+    background: url('/images/min-icon/menu.png') no-repeat center/100% 100%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    bottom: 15px;
+    height: 30px;
+    width: 30px;
+}
+/* 小屏幕 默认导航样式 */
+.header .link-nav{
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 56px;
+    z-index: 1;
+}
+.header .link-nav .triangle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 8px;
+    background-color: lavenderblush;
+    transform: rotate(45deg);
+}
+.header .link-nav .phone-nav{
+    position: relative;
+    color: red;
+    text-align: right;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 5px;
+    background: lavenderblush;
+}
+.header .link-nav .phone-nav li{
+    height: 20px;
+    line-height: 20px;
+}
+
+/* 首屏 默认样式 */
+.container{
+    position: relative;
+    height: 748px;
+    background-image: url('/images/HomePage/Banner/timg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .black{
+    background: rgba(0, 0, 0, .5);
+}
+.container .main-introduce{
+    text-align: center;
+    height: 748px;
+}
+.container .model{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -230px;
+    margin-top: -77px;
+    width: 460px;
+    color: white;
+    line-height: 1.2;
+}
+.container .model .main-inner{
+    font-size: 60px;
+    border-bottom: 1px solid white;
+    font-weight: normal;
+}
+.container .model h1{
+    text-transform: uppercase;
+    font-size: 96px;
+}
+
+/* 次屏 默认样式 */
+.tab-attribute{
+    position: relative;
+    padding: 74px 0;
+}
+.tab-attribute .tab{
+    border: 3px solid;
+    text-transform: uppercase;
+}
+.tab-attribute .tab .first,.tab-attribute .tab .second{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    overflow: hidden;
+}
+.tab-attribute .tab p.min-font{
+    font-size: 10px;
+    line-height: 1.2;
+}
+.tab-attribute .tab span{
+    padding: 14px;
+}
+.tab-attribute .tab .third{
+    max-height: 97px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tab-attribute .tab .third .left{
+    float: left;
+    display: block;
+    padding: 14px;
+    text-align: center;
+    height: 97px;
+}
+
+.tab-attribute .tab .third .left .text{
+    margin-top: 12.5px;
+}
+.tab-attribute .tab .third .left .boom{
+    font-weight: bold;
+    font-size: 30px;
+}
+.tab-attribute .tab .right{
+    display: block;
+    padding: 14px;
+    font-size: 14px;
+    height: 97px;
+    overflow: hidden;
+    border-right: 3px solid;
+    line-height: 1.4;
+    border-left: 3px solid;
+    text-transform: capitalize;
+}
+.tab-attribute .tab .img{
+    float: right;
+    width: 256px;
+    height: 196px;
+    overflow: hidden;
+}
+.tab-attribute .tab .img img{
+    width: 100%;
+    height: 190px;
+}
+/* 第三屏 默认样式 */
+.Voltron{
+    background-image: url('/images/HomePage/Banner/BMW.jpg');
+    background-color: rgba(0, 0, 0, .7);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.Voltron .black{
+    background: rgba(0, 0, 0, .4);
+    height: 800px;
+}
+.Voltron .black .box .voltron-main{
+    float: right;
+    max-width: 590px;
+    padding-left: 20px;
+    margin-top: 174px;
+    color: white;
+}
+.Voltron .black .box .voltron-main h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.Voltron .black .box .voltron-main p{
+    line-height: 2;
+}
+/* 第四屏 默认样式 */
+.Appearance{
+    padding-top: 72px;
+    margin-bottom: 72px;
+}
+/* .Appearance .box img{
+    display: block;
+} */
+.Appearance .box h2{
+    font-size: 30px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Appearance .box p{
+    line-height: 2;
+}
+.Appearance .box .history .read,.Appearance .box .challenge .read{
+    height: 30px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.Appearance .box .history,.Appearance .box .challenge,.Appearance .box .build-sheet{
+    width: 580px;
+    float: left;
+}
+.Appearance .box .history i,.Appearance .box .challenge i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.Appearance .box .history .pic{
+    width: 580px;
+    height: 870px;
+    background-image: url('../images/HomePage/RetroMotorcycle/four@1x1.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.Appearance .box .challenge{
+    float: right;
+    vertical-align: bottom;
+}
+.Appearance .box .challenge .pic{
+    width: 580px;
+    height: 870px;
+    background-image: url('../images/HomePage/RetroMotorcycle/four@2x2.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.Appearance .box .history .pic,.Appearance .box .challenge .pic{
+    box-shadow: 5px 10px 10px #999;
+}
+.Appearance .box .build-sheet{
+    width: 1200px;
+}
+.Appearance .box .build-sheet nav li{
+    text-transform: capitalize;
+    line-height: 2;
+    border-bottom: 1px solid;
+}
+.Appearance .box .build-sheet nav li span{
+    font-weight: bold;
+}
+.Appearance .box .build-sheet .build-left,.Appearance .box .build-sheet .build-right{
+    float: left;
+    width: 580px;
+}
+.Appearance .box .build-sheet .build-right{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+/* 第五屏 默认样式 */
+.vintage{
+    background-image: url('/images/HomePage/RetroMotorcycle/one.jpeg');
+    background-color: rgba(0, 0, 0, .7);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.vintage .black{
+    background: rgba(0, 0, 0, .4);
+    height: 800px;
+}
+.vintage .black .box .vintage-main{
+    float: left;
+    max-width: 590px;
+    padding-left: 20px;
+    margin-top: 174px;
+    color: white;
+}
+.vintage .black .box .vintage-main h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.vintage .black .box .vintage-main p{
+    line-height: 1.4;
+}
+/* 第六屏 默认样式 */
+.ReferenceMap{
+    padding-top: 72px;
+}
+.ReferenceMap .Maptop,.ReferenceMap{
+    margin-bottom: 20px;
+    font-size: 0px;
+}
+.ReferenceMap .Maptop .Map-l,
+.ReferenceMap .Maptop .Map-r{
+    width: 580px;
+    height: 584px;
+}
+.ReferenceMap .Maptop .Map-l{
+    float: left;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ReferenceMap .Maptop .Map-r{
+    float: right;
+}
+.ReferenceMap .Maptop .Map-r .top,
+.ReferenceMap .Maptop .Map-r .bottom{
+    width: 580px;
+    height: 282px;
+}
+.ReferenceMap .Maptop .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@1x1.jpg');
+    margin-bottom: 20px;
+}
+.ReferenceMap .Maptop .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/six@2x1.jpg');
+}
+.ReferenceMap .Middle{
+    width: 1200px;
+    height: 584px;
+    background-image: url('../images/HomePage/RetroMotorcycle/Middle@1.jpg');
+    margin-bottom: 20px;
+}
+.ReferenceMap .MapFoot .Map-l,
+.ReferenceMap .MapFoot .Map-r{
+    width: 580px;
+    height: 584px;
+}
+.ReferenceMap .MapFoot .Map-l{
+    float: right;
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-l@3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ReferenceMap .MapFoot .Map-r{
+    float: left;
+}
+.ReferenceMap .MapFoot .Map-r .top,
+.ReferenceMap .MapFoot .Map-r .bottom{
+    width: 580px;
+    height: 282px;
+}
+.ReferenceMap .MapFoot .Map-r .top{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@3.jpg');
+    margin-bottom: 20px;
+}
+.ReferenceMap .MapFoot .Map-r .bottom{
+    background-image: url('../images/HomePage/RetroMotorcycle/Map-r@5.jpg');
+}
+/* 第七屏 默认样式 */
+.ExhibitionModels{
+    padding-bottom: 72px;
+}
+.ExhibitionModels .ModelContainer{
+    padding: 0 10px;
+}
+.ExhibitionModels h1.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2;
+    padding-top: 60px ;
+    text-transform: uppercase;
+}
+.ExhibitionModels .ModelContainer .first,
+.ExhibitionModels .ModelContainer .second,
+.ExhibitionModels .ModelContainer .third{
+    float: left;
+    width: 380px;
+    margin-right: 20px;
+}
+.ExhibitionModels .ModelContainer .third{
+    margin-right: 0;
+}
+.ExhibitionModels .ModelContainer .first h2,
+.ExhibitionModels .ModelContainer .second h2,
+.ExhibitionModels .ModelContainer .third h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2;
+}
+.ExhibitionModels .ModelContainer .first .pic,
+.ExhibitionModels .ModelContainer .second .pic,
+.ExhibitionModels .ModelContainer .third .pic{
+    width: 380px;
+    height: 250px;
+    border: 1px solid;
+}
+.ExhibitionModels .ModelContainer .first .pic{
+    background-image: url('../images/HomePage/RetroMotorcycle/serven@1.jpg');
+}
+.ExhibitionModels .ModelContainer .second .pic{
+    background-image: url('../images/HomePage/RetroMotorcycle/serven@2.jpg');
+}
+.ExhibitionModels .ModelContainer .third .pic{
+    background-image: url('../images/HomePage/RetroMotorcycle/serven@3.jpg');
+}
+.ExhibitionModels .ModelContainer .first p,
+.ExhibitionModels .ModelContainer .second p,
+.ExhibitionModels .ModelContainer .third p{
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 10px;
+}
+/* 页脚 默认样式 */
+.footer{
+    position: relative;
+    background-color: rgba(0, 0, 0, .9);
+}
+/* .footer a{
+    color: white;
+} */
+.footer .nav-bar .nav-ul{
+    text-align: center;
+    height: 160px;
+    margin: 0 264px;
+}
+.footer .nav-bar .nav-ul li{
+    float: left;
+    color: white;
+    padding: 0 16px;
+    line-height: 120px;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.footer .nav-bar .nav-ul li a,.footer .nav-bar .nav-ul li img{
+    display: block;
+}
+.footer .nav-bar .bottom-footer{
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+.footer .nav-bar .bottom-footer li{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+}
+.footer .nav-bar .bottom-footer li i{
+    color: #515151;
+    font-size: 20px;
+}
